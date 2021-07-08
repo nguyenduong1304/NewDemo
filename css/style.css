@@ -1,0 +1,285 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+ }
+ body{
+    transform: none; 
+    position: relative; 
+    min-height: 100%; 
+    top: 0px;
+ }
+ #page__full{
+     width: 100%;
+ }
+ img{
+     width: 100%;
+ }
+ header{
+     display: block;
+     max-width: 100%;
+     height: auto;
+ }
+ .wrapper__top{
+     background-color: black;
+     width: 100%;
+     height: 30px;
+ }
+ .wrapper__top p{
+    color: white;
+    font-weight: 500;
+    float: right;
+    padding-right: 105px;
+ }
+ .wrapper__header{
+     display: block;
+     margin-top: 10px;  
+     margin-bottom: 10px;
+ }
+ .top_banner img{
+     margin: 0 auto;
+ }
+ nav{
+     width: 100%;
+ }
+ .menu
+{
+ width: 100%;
+ border: 1px solid #000;
+ height: 70px;
+ background-color: #181818;
+ font-family: Helvetica, sans-serif;
+ font-size: 13px;
+}
+.menu ul
+{
+  margin-top:  25px;
+}
+.menu ul li
+{
+  list-style-type: none;
+  display: inline;
+  margin-left: 20px;
+}
+.menu ul li a:link 
+{
+   color: #FFF;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+              
+.menu ul li a:visited
+{
+   color: #FFF;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+              
+.menu ul li a:hover
+{
+   color: #FFF;
+   border-bottom: 10px solid white;
+   
+  
+}
+.slider{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.content{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
+.left-qc img{
+width: 85%;
+margin: 10px auto;
+}
+.trending__news{
+    display: block;
+    margin-top:20px;
+}
+.trend_title h2{
+    font-weight: bold;
+    color: rgb(226, 42, 42);
+    font-size: 30px;
+}
+.trend_title hr{
+    color:  rgb(238, 27, 27);
+    width: 235px;
+    font-weight: bold;
+}
+.col-inner{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+.post_img img{
+    width: 100%;
+}
+.post_title p{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0;
+     margin-bottom: 0;
+}
+.short_text p{ 
+    padding-top: 10px;
+    font-size: 13px;
+}
+.ql-title{
+    color: black;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+.lq_img img{
+    height: 100px;
+}
+.post-item{
+    width: 100%;
+    padding: 7px 0px 7px;
+    border-top: 1px dotted #eaeaea;
+}
+.post-item p{
+    color: black;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-bottom: 1px;
+}
+.post-mini-img{
+    
+}
+.post-mini-img img{
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+.post-mini-img p{
+    color: black;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-right: 5px;
+}
+.main__content{
+    display: block;
+    margin-top: 10px;
+}
+.main_title p{
+    color:rgb(152, 13, 23);
+    font-weight: bold;
+    font-size: 22px;
+}
+.main_title2 p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+.main_title2 span{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: italic;
+}
+.short_text {
+    font-size: 13px;
+}
+.main_img img{
+    height: 260px;
+}
+.main-content2{
+    margin-top: 10px;
+}
+.ct2-img img{
+    margin-bottom: 10px;
+    height: 150px;
+}
+.ct2-text p{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    padding: 0 5px;
+}
+.content-last{
+    display: block;
+    margin-top: 10px;
+}
+
+.tip-title p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
+.tip-title span{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.tip-content{
+    margin-top: 10px;
+}
+.tip-content{
+    font-size: 13px;
+}
+.tip-box{
+    margin-top: 10px;
+}
+.qc-img1 img{
+    margin-top: 10px;
+}
+/*footer*/
+footer{
+    display: block;
+    width: 100%;   
+    height: auto;
+    margin-top: 10px;
+    
+}
+.footer_top{
+    border-top: 1px dotted rgb(105, 102, 102);
+}
+.footer_top p{
+    font-size: 13px;
+}
+.footer_top span{
+    font-weight: bold;
+}
+.footer_bot{
+    background-color: rgb(34, 31, 31);
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.hcm{
+    margin-top: 10px ;
+}
+.logo1 img
+{
+  width: 15%;
+}
+.logo1 ul
+{
+  margin-top:  25px;
+}
+.logo1 ul li
+{
+  list-style-type: none;
+  display: inline;
+  margin-left: 10px;
+}
